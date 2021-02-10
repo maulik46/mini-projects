@@ -1,4 +1,4 @@
-# mini-projects
+# Vue.js mini-projects
 
 ## Project setup
 ```
