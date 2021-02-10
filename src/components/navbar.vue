@@ -29,8 +29,7 @@
       </div>
     </nav>
   <!-- </div> -->
-  <div
-    :style="{ display: show_menu ? 'none' : 'block','width': '300px' }"
+  <div :style="{ display: show_menu ? 'none' : 'block','width': '300px' }"
     class="fixed shadow-md bg-white z-50 h-screen flex justify-start flex-col items-center top-0 px-2"
   >
     <template v-for="(project,index) in projectList" :key="index">
