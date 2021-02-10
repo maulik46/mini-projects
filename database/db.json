@@ -1,0 +1,155 @@
+{
+  "todos": [
+    {
+      "id": 0,
+      "name": "Go to the gym"
+    },
+    {
+      "id": 1,
+      "name": "Walk the dog"
+    },
+    {
+      "id": 2,
+      "name": "Get some pizza"
+    },
+    {
+      "id": 4,
+      "name": "Get some rest please"
+    },
+    {
+      "id": 7,
+      "name": "new added again "
+    },
+    {
+      "id": 9,
+      "name": "Hello there?"
+    },
+    {
+      "id": 10,
+      "name": "lunch time"
+    },
+    {
+      "id": 11,
+      "name": "new project created"
+    },
+    {
+      "id": 12,
+      "name": "Saturday."
+    },
+    {
+      "id": 13,
+      "name": "xyz123"
+    }
+  ],
+  "expenses": [
+    {
+      "id": 0,
+      "title": "Salary",
+      "amount": 25000,
+      "description": "Got Salary of previous month today",
+      "type": 1,
+      "date": "20-11-2020",
+      "_comment": "type 1 for income and 0 for expense, date should be in dd-mm-yyyy, time should be in indian time format with AM or PM"
+    },
+    {
+      "id": 1,
+      "title": "New Mobile",
+      "amount": 20000,
+      "description": "Bought new mobile today",
+      "type": 0,
+      "date": "20-12-2019",
+      "_comment": "type 1 for income and 0 for expense, date should be in dd-mm-yyyy, time should be in indian time format with AM or PM"
+    },
+    {
+      "id": 2,
+      "title": "Food",
+      "amount": 3500,
+      "description": "Ate at restaurent",
+      "type": 0,
+      "date": "20-10-2019",
+      "_comment": "type 1 for income and 0 for expense, date should be in dd-mm-yyyy, time should be in indian time format with AM or PM"
+    },
+    {
+      "id": 3,
+      "title": "Internet",
+      "amount": 1200,
+      "description": "this is Description",
+      "type": 0,
+      "date": "27-12-2020"
+    },
+    {
+      "title": "New T.V",
+      "amount": 150,
+      "description": "Description",
+      "type": 0,
+      "date": "29-12-2020",
+      "id": 4
+    },
+    {
+      "title": "Bonus",
+      "amount": 2000,
+      "description": "got work bonus",
+      "type": 1,
+      "date": "27-12-2020",
+      "id": 7
+    },
+    {
+      "title": "project income",
+      "amount": 25000,
+      "description": "got project income",
+      "type": 1,
+      "date": "28-12-2020",
+      "id": 8
+    },
+    {
+      "title": "food",
+      "amount": 250,
+      "description": "new expense",
+      "type": 0,
+      "date": "16-1-2021",
+      "id": 9
+    }
+  ],
+  "projectList": [
+    {
+      "id": 1,
+      "name": "Todos App",
+      "link": "/todos"
+    },
+    {
+      "id": 2,
+      "name": "Expense Manager",
+      "link": "/expense-management"
+    },
+    {
+      "id": 3,
+      "name": "Random Background-color",
+      "link": "/background-color-generator"
+    },
+    {
+      "id": 4,
+      "name": "Random Quotes",
+      "link": "/random-quotes"
+    },
+    {
+      "id": 5,
+      "name": "Word Counter",
+      "link": "/word-counter"
+    },
+    {
+      "id": 6,
+      "name": "Digital Clock",
+      "link": "/digital-clock"
+    },
+    {
+      "id": 7,
+      "name": "Button Generator",
+      "link": "/button-generator"
+    },
+    {
+      "id": 8,
+      "name": "Currency Exchange",
+      "link": "/currency-exchange"
+    }
+  ]
+}
