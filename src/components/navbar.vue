@@ -43,6 +43,8 @@
         <div class="text-left ml-2 w-full">{{project.name}}</div>
       </div>
     </router-link>
+
+    
     </template>
   </div>
   <div class="w-full z-40 h-screen fixed top-0 left-0" @click="show_menu = !show_menu" :style="{ display: show_menu ? 'none' : 'block','background-color':'rgba(0,0,0,0.5)' }">
