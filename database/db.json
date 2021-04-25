@@ -158,6 +158,11 @@
       "id": 8,
       "name": "Currency Exchange",
       "link": "/currency-exchange"
+    },
+    {
+      "id": 9,
+      "name": "Filter Data",
+      "link": "/filter-data"
     }
   ]
 }

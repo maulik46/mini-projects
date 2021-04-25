@@ -9,6 +9,8 @@ import wordCounter from "@/views/wordCounter.vue";
 import digitalClock from "@/views/digitalClock.vue";
 import buttonGenerator from "@/views/buttonGenerator.vue"; 
 import currencyExchange from "@/views/currencyExchange.vue";
+import filterData from "@/views/filterData.vue";
+
 const routes = [
   {
     path: "/",
@@ -54,6 +56,11 @@ const routes = [
     path: "/currency-exchange",
     name: "currencyExchange",
     component: currencyExchange,
+  },
+  {
+    path: "/filter-data",
+    name: "filterData",
+    component: filterData,
   },
 ];
 
