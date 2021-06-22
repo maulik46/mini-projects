@@ -118,6 +118,73 @@
       "id": 10
     }
   ],
+  "miniBlogs": [
+    {
+      "id": 1,
+      "title": "Title 1",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi pariatur dolore velit consequuntur quidem nemo sit amet consectetur, adipisicing,Lorem ipsum dolor sit amet consectetur, adipisicing,Lorem ipsum dolor sit amet consectetur,  dolore velit consequuntur quidem nemo",
+      "author": "John Doe"
+    },
+    {
+      "id": 2,
+      "title": "Title 2",
+      "description": "Ab, architecto corporis veritatis tempore sapiente non unde fugiat esse accusantium et laborum rem cupiditate.Lorem ipsum dolor sit amet consectetur, adipisicing,Lorem ipsum dolor sit amet consectetur",
+      "author": "John Doe"
+    },
+    {
+      "id": 3,
+      "title": "Title 3",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing,Lorem ipsum dolor sit amet consectetur, adipisicing,Lorem ipsum dolor sit amet Ab, architecto corporis ",
+      "author": "John Doe"
+    },
+    {
+      "id": 4,
+      "title": "Title 4",
+      "description": "laborum rem cupiditate Lorem ipsum dolor sit amet consectetur, adipisicing,Lorem ipsum dolor sit amet consectetur, adipisicing,Lorem ipsum dolor sit amet consectetur, adipisicing,Lorem ipsum dolor sit amet consectetur, adipisicing",
+      "author": "John Doe"
+    },
+    {
+      "id": 5,
+      "title": "Title 5",
+      "description": "Eligendi pariatur dolore velit consequuntur quidem nemo. Ab, architecto corporis veritatis amet consectetur, adipisicing,Lorem ipsum dolor sit amet consectetur, adipisicing,Lorem ipsum dolor sit amet consectetur",
+      "author": "John Doe"
+    },
+    {
+      "title": "new title",
+      "description": "new description",
+      "id": 6
+    },
+    {
+      "title": "final testing",
+      "description": "new description",
+      "id": 7
+    },
+    {
+      "title": "test",
+      "description": "test again",
+      "id": 8
+    },
+    {
+      "title": "final blog",
+      "description": "new blog",
+      "id": 9
+    },
+    {
+      "title": "last blog",
+      "description": "last text",
+      "id": 10
+    },
+    {
+      "title": "hello",
+      "description": "success message",
+      "id": 11
+    },
+    {
+      "title": "final",
+      "description": "hello",
+      "id": 12
+    }
+  ],
   "projectList": [
     {
       "id": 1,
@@ -163,6 +230,16 @@
       "id": 9,
       "name": "Filter Data",
       "link": "/filter-data"
+    },
+    {
+      "id": 10,
+      "name": "Image Slider",
+      "link": "/image-slider"
+    },
+    {
+      "id": 11,
+      "name": "Mini blogs",
+      "link": "/mini-blogs"
     }
   ]
 }

@@ -35,7 +35,7 @@
                         </option>
                     </select>
                     <div class="m-1">
-                        <button class="bg-blue-500 text-white p-2 px-5 font-bold rounded-sm border-2 border-blue-500 focus:outline-none hover:bg-blue-600" @click="getExchangeAmount">Convert</button>
+                        <button class="bg-blue-500 text-white p-2 px-5 font-bold rounded-sm border-2 border-blue-500 focus:outline-none hover:bg-blue-600 " @click="getExchangeAmount">Convert</button>
                     </div>
                 </div>
                 <div class="text-center mt-5" v-if="showValue">
