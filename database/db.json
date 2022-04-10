@@ -21,10 +21,6 @@
       "name": "new added again "
     },
     {
-      "id": 9,
-      "name": "Hello there?"
-    },
-    {
       "id": 10,
       "name": "lunch time"
     },
@@ -185,6 +181,14 @@
       "id": 12
     }
   ],
+  "eventLists": [
+    {
+      "title": "testing",
+      "date": "2022-04-10",
+      "time": "01:50",
+      "id": 1
+    }
+  ],
   "projectList": [
     {
       "id": 1,
@@ -240,6 +244,11 @@
       "id": 11,
       "name": "Mini blogs",
       "link": "/mini-blogs"
+    },
+    {
+      "id": 12,
+      "name": "Event countdown",
+      "link": "/event-countdown"
     }
   ]
 }

@@ -14,6 +14,7 @@ import imageSlider from "@/views/imageSlider.vue";
 import miniBlogs from "@/views/miniBlogs/miniBlogs.vue";
 import showOneBlog from "@/views/miniBlogs/showOneBlog.vue";
 import createBlog from "@/views/miniBlogs/createBlog.vue";
+import eventCountdown from "@/views/eventCountdown.vue";
 
 const routes = [
     {
@@ -85,6 +86,11 @@ const routes = [
         path: "/mini-blogs/create",
         name: "createBlog",
         component: createBlog,
+    },
+    {
+        path: "/event-countdown",
+        name: "eventCountdown",
+        component: eventCountdown,
     },
 ];
 

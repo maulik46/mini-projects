@@ -4,7 +4,7 @@
         style="height: 90vh"
     >
         <form
-            class="flex max-w-xl w-full justify-center bg-white shadow-md rounded-lg overflow-hidden flex flex-col p-5"
+            class="max-w-xl w-full justify-center bg-white shadow-md rounded-lg overflow-hidden flex flex-col p-5"
             @submit.prevent="createBlogPost()"
         >
             <h3 class="text-2xl font-bold mb-4">Create Blog</h3>
