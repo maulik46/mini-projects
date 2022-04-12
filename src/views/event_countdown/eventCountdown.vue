@@ -67,6 +67,7 @@
             </form>
         </div>
         <div class="mt-3 lg:col-span-8 col-span-12 border-2 p-5 rounded-lg bg-white shadow-md overflow-auto" style="max-height:85vh">
+            <div class="text-right font-semibold text-sm italic">* Swipe left to Delete event *</div>
             <ul>
                 <li v-for="(event,index) in events" :key="index" class="relative">
                     <div class=" shadow-sm border w-full rounded-lg mb-2 eventCard z-30" :class="index === 0 ? 'bg-green-100 p-3' : 'bg-gray-100 py-1.5 px-3' " 

@@ -1,20 +1,21 @@
 import { createWebHistory, createRouter } from "vue-router";
 
 import index from "@/views/index.vue";
-import Todos from "@/views/Todos.vue";
-import expenseManagement from "@/views/expense-management.vue";
-import backgroundColorGenerator from "@/views/background-color-generator.vue";
-import randomQuotes from "@/views/random-quotes.vue";
-import wordCounter from "@/views/wordCounter.vue";
-import digitalClock from "@/views/digitalClock.vue";
-import buttonGenerator from "@/views/buttonGenerator.vue";
-import currencyExchange from "@/views/currencyExchange.vue";
-import filterData from "@/views/filterData.vue";
-import imageSlider from "@/views/imageSlider.vue";
+import Todos from "@/views/todos/Todos.vue";
+import expenseManagement from "@/views/expense_manager/expense-management.vue";
+import backgroundColorGenerator from "@/views/random_background/background-color-generator.vue";
+import randomQuotes from "@/views/random_quotes/random-quotes.vue";
+import wordCounter from "@/views/word_counter/wordCounter.vue";
+import digitalClock from "@/views/digital_clock/digitalClock.vue";
+import buttonGenerator from "@/views/button_generator/buttonGenerator.vue";
+import currencyExchange from "@/views/currency_exchange/currencyExchange.vue";
+import filterData from "@/views/filter_data/filterData.vue";
+import imageSlider from "@/views/image_slider/imageSlider.vue";
 import miniBlogs from "@/views/miniBlogs/miniBlogs.vue";
 import showOneBlog from "@/views/miniBlogs/showOneBlog.vue";
 import createBlog from "@/views/miniBlogs/createBlog.vue";
-import eventCountdown from "@/views/eventCountdown.vue";
+import eventCountdown from "@/views/event_countdown/eventCountdown.vue";
+import passwordGenerator from "@/views/password_generator/passwordGenerator.vue";
 
 const routes = [
     {
@@ -91,6 +92,11 @@ const routes = [
         path: "/event-countdown",
         name: "eventCountdown",
         component: eventCountdown,
+    },
+    {
+        path: "/password-generator",
+        name: "passwordGenerator",
+        component: passwordGenerator,
     },
 ];
 

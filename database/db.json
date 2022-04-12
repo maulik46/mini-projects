@@ -265,8 +265,13 @@
     },
     {
       "id": 12,
-      "name": "Event countdown",
+      "name": "Event Countdown",
       "link": "/event-countdown"
+    },
+    {
+      "id": 13,
+      "name": "Password Generator",
+      "link": "/password-generator"
     }
   ]
 }

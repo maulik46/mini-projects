@@ -1,7 +1,7 @@
 <template>
   <!-- <div> -->
   <nav
-    class="bg-green-400 shadow-md w-full p-2 flex-row flex justify-between items-center px-5 z-30"
+    class="bg-green-400 shadow-md w-full p-2 flex-row flex justify-between items-center px-5 z-50 sticky top-0"
   >
     <router-link to="/">
       <span class="text-xl font-semibold text-white hover:text-gray-100"

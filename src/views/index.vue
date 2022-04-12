@@ -2,7 +2,7 @@
   <div class="m-5">
     <!-- <h1 class="text-center text-2xl font-bold mb-5" v-if="projectList.length!==0">Mini Projects</h1> -->
     <div class="grid grid-cols-4 gap-4">
-        <div v-for="(project,index) in projectList" :key="index" class="bg-blue-500 py-4 px-2 rounded-md shadow-md text-white hover:opacity-80 ">
+        <div v-for="(project,index) in projectList" :key="index" class="project-card py-4 px-2 rounded-md shadow-md text-white hover:opacity-80 ">
             <span class="bg-white text-black font-bold text-xl px-3 py-1 rounded">{{index+1}}</span>
             <div class="text-left font-semibold text-xl mt-4">{{project.name}}</div>
             <router-link :to="project.link">
@@ -45,4 +45,8 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.project-card{
+  background-color: #20525c;
+}
+</style>
